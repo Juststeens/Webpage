@@ -1,0 +1,35 @@
+img {
+	display: block;
+	margin: auto;
+	text-align: center;
+	border: 2px solid purple;
+	padding: 5px;
+}
+
+a:visited {
+	color: purple;
+}
+
+table {
+	background-image: url(http://images.all-free-download.com/images/graphiclarge/super_baby_mario_101450.jpg);
+	border: 2px solid black;
+}
+
+h1 {
+	font-family: sans-serif;
+}
+
+
+.word {
+	font-family: helvetica;
+}
+
+#par {
+	font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	table{
+		width: 100%;
+	}
+}
